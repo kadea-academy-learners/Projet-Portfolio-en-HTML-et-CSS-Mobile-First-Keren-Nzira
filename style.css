@@ -100,8 +100,9 @@
     border-top-width:1px;
   }
   .width-fit{
-    width:fit-content;
-  }
+    width: -moz-fit-content; /* For Firefox */
+    width: fit-content; /* Standard syntax */
+}
   .width-full{
     width:100%;
   }
