@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    color: #000000;
+    color: #262626;
     text-decoration:none;
   }
 
@@ -109,9 +109,7 @@
   .rounded{
     border-radius:100%; 
   }
-  .presentation>*{
-    max-width:450px;
-  }
+  
   .bg-yellow{
     background-color:#EEA302;
   }
