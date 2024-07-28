@@ -92,16 +92,16 @@
     padding-top:20px;
     padding-bottom:20px;
   }
-  .padding-left-xs{
-    padding-left:10px;
+  .padding-left-m{
+    padding-left:30px;
   }
   .bordered{
-    border-color:#262626;
+    border-color:gray;
     border-style:solid;
     border-width:1px;
   }
   .top-bordered{
-    border-top-color:#262626;
+    border-top-color:gray;
     border-top-style:solid;
     border-top-width:1px;
   }
