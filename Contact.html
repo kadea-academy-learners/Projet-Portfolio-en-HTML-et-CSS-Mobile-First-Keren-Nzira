@@ -25,8 +25,8 @@
       </div>
     </header>
     
-    <main class="padding-y-xxl flex flex-justify-space-between">
-      <div class="flex flex-column gap-l">
+    <main class="flex margin-auto max-width-1100">
+      <div class=" flex-column flex-1 gap-l">
         <h2>Contact</h2>
         <section><h3>Téléphone</h3>
         <p class="p"><a href="tel:0818693327">0818693327</a></p>
@@ -36,36 +36,70 @@
           <p class="p"><a href="mailto:kerennzira@gmail.com">kerennzira@gmail.com</a></p>
         </section>
       </div>
-      <div class="flex flex-column ">
-        <form>
-          <div> 
-          <div> 
-            <div><label for="nom"> Votre Nom</label></div>
-            <div> <input type="text" name="nom" id="nom"></div>
+      <div class="flex-1 gap-l">
+        <form> 
+          <div class="flex gap-l padding-y-xs">
+            <div>
+              <div >
+              <label for="nom"> Votre Nom</label>
+              </div>  
+            <div> 
+              <input type="text" 
+               name="nom"
+               id="nom" class="padding-y-xs ">
+            </div>
+
           </div>
           <div>
-            <div><label for="prénom">Votre Prénom</label></div>
-            <div><input  type="text" name="prénom" id="prénom"></div>
+            <div>
+              <label for="prénom">Votre Prénom</label>
+            </div>
+            <div>
+              <input  type="text"
+                name="prénom"
+                id="prénom" class="padding-y-xs ">
+            </div>
            </div>
           </div>
-          <div>
-          <div>
-            <div><label for="email">Votre Email</label></div>
-            <div><input type="text" name="email" id="email"></div>
+          <div class="flex gap-l padding-y-xs">
+            <div>
+              <div>
+              <label for="email">Votre Email</label>
+            </div>
+            <div>
+              <input type="text"
+                name="email"
+                id="email" class="padding-y-xs ">
+            </div>
           </div>
           <div>
-            <div><label for="objet">L'objet de votre message</label></div>
-            <div><input type="text"name="objet"id="objet"></div>
+            <div>
+              <label for="objet">L'objet de votre message</label>
+            </div>
+            <div>
+              <input type="text"
+                name="objet"
+                id="objet" class="padding-y-xs ">
+            </div>
           </div>
           </div>
-          <div>
-          <div>
-            <div><label for="message">Votre message</label></div>
-            <div><textarea name="message" id="message"></textarea></div>
-          </div>
-          <div><button type="submit" class="bg-yellow button rounded">Envoyer</button></div>
+        <div>
+          <div class="flex gap-l padding-y-xs">             
+            <div>
+              <div>
+              <label for="message">Votre message</label>
+              </div>
+              <div>
+              <textarea name="message" id="message" class="resize-none padding-y-m"></textarea>
+              </div>
+            </div>
+            <div class="padding-y-m">
+              <button type="submit" class=" height-100 width-100 rounded bordered text-bold  bg-yellow">Envoyer</button>
+            </div> 
+          
         </div>
-      </form>
+      </div>
+   </form>
       </div>
     
   </main>
