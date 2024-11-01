@@ -170,13 +170,20 @@ footer {
 .width-p {
   width: 67%;
 }
+.notMQ {
+  display: flex;
+}
+.onlyMQ {
+  display: none;
+}
 .bordered-img {
-  border: 20px solid #e0e0e0;
+  border: 10px solid #e0e0e0;
 }
 .outline-img {
   outline: #e0e0e0;
-  border-radius: 10%;
+  border-radius: 5%;
 }
+
 .height-100 {
   height: 100px;
 }
@@ -205,4 +212,70 @@ textarea {
 .aForm {
   color: purple;
   font-size: large;
+}
+@media (width <= 610px) {
+  .h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .p {
+    font-size: 1rem;
+  }
+  header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .mainIndex {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .mainIndex .width-full {
+    width: 384px;
+    height: 384px;
+  }
+  .mainIndex h2 {
+    text-align: center;
+  }
+  .mainIndex p {
+    text-align: justify;
+  }
+  .mainIndex .width-p {
+    width: 320px;
+  }
+  .mainIndex .gap-l {
+    gap: 20px;
+  }
+  .mainProject h2 {
+    text-align: center;
+  }
+  .mainProject p {
+    text-align: justify;
+  }
+
+  .mainProject div {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainProject .notMQ {
+    display: none;
+  }
+  .mainProject .onlyMQ {
+    display: flex;
+    margin: 10px 0px;
+  }
+  .icon {
+    font-size: 1rem;
+    text-align: center;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
 }
